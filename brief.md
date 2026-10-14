@@ -33,3 +33,10 @@ Resource: OWASP Top 10 for LLM Applications (LLM01: Prompt Injection) - https://
 Anonymization irreversibly alters personal data so that the individual can no longer be identified directly or indirectly by any party using any reasonable means. Pseudonymization replaces personal identifiers with artificial codes, allowing re-identification using additional separate information. Anonymization takes data completely outside the scope of data protection laws (such as GDPR), whereas pseudonymized data remains regulated personal data.
 
 Resource: EDPB Guidelines 04/2019 on Data Protection by Design and by Default - https://edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotectionbydesign_and_by_default_v2.0_en.pdf
+
+
+## Misconception in My Track
+A common wrong belief in networking is that IPv6 is simply IPv4 with longer addresses and that transition relies entirely on dual-stack routers. In reality, IPv6 eliminates traditional broadcast mechanisms, redesigns header structures, and deprecates ARP in favor of Neighbor Discovery Protocol (NDP). RFC 8200 explicitly specifies under Section 3 "IPv6 Header Format" that IPv6 streamlines packet processing by removing router hop-by-hop checksum requirements, proving it is a fundamental protocol redesign rather than a simple address extension.
+
+## Open Question
+How does the government entity plan to maintain seamless dual-stack IPv4/IPv6 session persistence when mobile users switch between Wi-Fi and cellular networks?
